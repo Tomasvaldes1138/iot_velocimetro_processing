@@ -17,7 +17,7 @@ float velocidad=0;
 
 void setup(){
         size(400, 400);
-        myPort = new Serial(this, "COM3", 9600);
+        myPort = new Serial(this, "COM5", 9600);
 }
 
 void draw(){
